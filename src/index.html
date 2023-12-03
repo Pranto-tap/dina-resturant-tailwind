@@ -1,0 +1,691 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link href="../dist/output.css" rel="stylesheet">
+       <style>
+           body{ 
+            font-family: 'Poppins', sans-serif;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div class="navbar bg-[#262626] flex justify-between lg:h-[9vh] md:h-[6vh] h-[8vh] items-center border-b-black fixed top-0 w-[100%] z-10">
+            <div class="navleft lg:w-[12%] md:w-[20%] w-[35%] pl-[20px]">
+               <a href="#"><img class="w-full" src="envato_market-dde916a48af7413e54aa058fe7ae6856752fca799da4bec355f00aea904bfa19.svg" alt=""></a>
+            </div>
+            <div class="navright pr-[20px]">
+                <a class="bg-[#7AA93C] text-white rounded-[5px] px-[19px] py-[7px] text-[14px]" href="#">Buy now</a>
+            </div>
+        </div>
+        <div class="navsecond hidden bg-[#1F1D1C] h-[10vh] lg:flex justify-center text-white gap-[30px] items-center mt-[55px] fixed w-full top-0 z-10">
+          <ul class="flex gap-[30px]">
+            <li class="group">
+              <a class="inline-block uppercase text-[13px] font-[700] text-[#B38648] tracking-[2px] relative" href="#">HOME<i class="fa-solid fa-angle-down pl-[5px]"></i>
+                <ul class="w-[15%] absolute left-[20%] top-[50px] bg-[#252525] pt-[15px] hidden group-hover:block">
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                </ul>
+              </a>
+            </li>
+            <li class="group">
+              <a class="inline-block uppercase text-[13px] font-[700] hover:text-[#B38648] tracking-[2px]" href="#">Menu<i class="fa-solid fa-angle-down pl-[5px]"></i>
+                <ul class="w-[15%] absolute left-[29%] top-[50px] bg-[#252525] pt-[15px] hidden group-hover:block">
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                </ul>
+              </a>
+            </li>
+            <li class="group">
+              <a class="inline-block uppercase text-[13px] font-[700] hover:text-[#B38648] tracking-[2px]" href="#">Pages<i class="fa-solid fa-angle-down pl-[5px]"></i>
+                <ul class="w-[15%] absolute left-[35%] top-[50px] bg-[#252525] pt-[15px] hidden group-hover:block">
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                </ul>
+              </a>
+            </li>
+            </li>
+              <a class="inline-block uppercase text-[13px] font-[700] hover:text-[#B38648] tracking-[2px]" href="#">Reservation</a>
+            </li>
+
+            <li class="group">
+              <a class="inline-block uppercase text-[13px] font-[700] hover:text-[#B38648] tracking-[2px]" href="#">Gallery<i class="fa-solid fa-angle-down pl-[5px]"></i>
+                <ul class="w-[15%] absolute left-[45%] top-[50px] bg-[#252525] pt-[15px] hidden group-hover:block">
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                </ul>
+              </a>
+            </li>
+            <li class="group">
+              <a class="inline-block uppercase text-[13px] font-[700] hover:text-[#B38648] tracking-[2px]" href="#">Blog<i class="fa-solid fa-angle-down pl-[5px]"></i>
+                <ul class="w-[15%] absolute left-[55%] top-[50px] bg-[#252525] pt-[15px] hidden group-hover:block">
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                </ul>
+              </a>
+            </li>
+            <li class="group">
+              <a class="inline-block uppercase text-[13px] font-[700] hover:text-[#B38648] tracking-[2px]" href="#">Contact<i class="fa-solid fa-angle-down pl-[5px]"></i>
+                <ul class="w-[15%] absolute left-[60%] top-[50px] bg-[#252525] pt-[15px] hidden group-hover:block">
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                  <li class="pl-[20px] mb-[10px]"><a class="text-[12px] font-[700] inline-block tracking-[2px] hover:text-[#7E6139]" href="#">HOME 1</a></li>
+                </ul>
+              </a>
+            </li> 
+          </ul>
+        </div>
+         <!-- Swiper -->
+        <div class="swiper mySwiper group w-full h-[100%] ">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide text-center text-[18px] bg-white flex justify-center items-center">
+                    <div class="welcome bg-[url('../src/slider-3.jpg')] h-[100vh] lg:h-[100vh] md:h-[80vh] w-full md:w-[150%] bg-center bg-cover text-center md:pt-[80px]">
+                        <p class="text-left text-white lg:text-[12px] md:text[12px] text-12px font-[700] pl-[20px] md:hidden">40 Park Ave, Brooklyn,</p>
+                        <p class="text-left text-white text-[12px] font-[700] pl-[20px] md:hidden">New York 70250</p>
+                        <p class="text-right text-white text-[12px] font-[700] pr-[20px] md:hidden">Book Now</p>
+                        <p class="text-right text-white text-[12px] font-[700] pr-[20px] md:hidden">+1-222-333-444</p>
+                        <a class="inline-block md:text-left" href="#"><img src="logo-dina-white.png" alt=""></a>
+                        <h1 class="lg:text-[108px] md:text-[108px] text-[50px] text-white font-[700] pt-[12%]">WELCOME</h1>
+                        <p class="text-white text-[16px] font-normal">You should come and taste for yourself</p>
+                        <a class="text-white mt-[30px] inline-block text-[12px] font-[700] border-4 px-[30px] py-[10px] hover:bg-[#BC8D4B] hover:border-[#BC8D4B] " href="#">BOOK A TABLE</a>
+                    </div>
+                </div>
+                <div class="swiper-slide text-center text-[18px] bg-white flex justify-center items-center">
+                    <div class="welcome bg-[url('../src/slider-1.jpg')] h-[100vh] lg:h-[100vh] md:h-[80vh] w-full md:w-[150%] bg-center bg-cover text-center md:pt-[80px]">
+                        <p class="text-left text-white text-[12px] font-[700] pl-[20px] md:hidden">40 Park Ave, Brooklyn,</p>
+                        <p class="text-left text-white text-[12px] font-[700] pl-[20px] md:hidden">New York 70250</p>
+                        <p class="text-right text-white text-[12px] font-[700] pr-[20px] md:hidden">Book Now</p>
+                        <p class="text-right text-white text-[12px] font-[700] pr-[20px] md:hidden">+1-222-333-444</p>
+                        <a class="inline-block" href="#"><img src="logo-dina-white.png" alt=""></a>
+                        <h1 class="lg:text-[108px] md:text-[108px] text-[50px] text-white font-[700] pt-[12%]">WELCOME</h1>
+                        <p class="text-white text-[16px] font-normal">Discover and experience fine selection of international tastes</p>
+                        <a class="text-white mt-[30px] inline-block text-[12px] font-[700] border-4 px-[30px] py-[10px] hover:bg-[#BC8D4B] hover:border-[#BC8D4B] " href="#">BOOK A TABLE</a>
+                    </div>
+                </div>
+                <div class="swiper-slide text-center text-[18px] bg-white flex justify-center items-center">
+                    <div class="welcome bg-[url('../src/slider-2.jpg')] h-[100vh] lg:h-[100vh] md:h-[80vh] w-full md:w-[150%] bg-center bg-cover text-center md:pt-[80px]">
+                        <p class="text-left text-white text-[12px] font-[700] pl-[20px] md:hidden">40 Park Ave, Brooklyn,</p>
+                        <p class="text-left text-white text-[12px] font-[700] pl-[20px] md:hidden">New York 70250</p>
+                        <p class="text-right text-white text-[12px] font-[700] pr-[20px] md:hidden">Book Now</p>
+                        <p class="text-right text-white text-[12px] font-[700] pr-[20px] md:hidden">+1-222-333-444</p>
+                        <a class="inline-block" href="#"><img src="logo-dina-white.png" alt=""></a>
+                        <h1 class="lg:text-[108px] md:text-[108px] text-[50px] text-white font-[700] pt-[12%]">WELCOME</h1>
+                        <p class="text-white text-[16px] font-normal">Traditional dishes with local products of highest quality</p>
+                        <a class="text-white mt-[30px] inline-block text-[12px] font-[700] border-4 px-[30px] py-[10px] hover:bg-[#BC8D4B] hover:border-[#BC8D4B] " href="#">BOOK A TABLE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next text-white hidden group-hover:block"></div>
+            <div class="swiper-button-prev text-white hidden group-hover:block"></div>
+        </div>
+        <div class="fresh bg-[#F4F4F4] ">
+            <div class="freshfood w-[80%] my-0 mx-auto grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 pt-[50px] pb-[50px] gap-[40px]">
+                <div class="flex gap-[15px]">
+                    <div class="lg:w-[100px] md:w-[100%] w-[40%]">
+                        <img class="w-full" src="groceries.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="text-[24px] font-[700] uppercase">Fresh Food</h5>
+                        <p class="text-[16px] font-normal">Donec lacinia magna sit amet arcu aliquet luctus maecenas vehicula.</p>
+                    </div>
+                </div>
+                <div class="flex gap-[15px] mt-[20px] lg:mt-0 md:mt-0">
+                    <div class="lg:w-[100px] md:w-[100%] w-[40%]">
+                        <img class="w-full" src="food.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="text-[24px] font-[700] uppercase">Chef's Specials</h5>
+                        <p class="text-[16px] font-normal">Donec lacinia magna sit amet arcu aliquet luctus maecenas vehicula.</p>
+                    </div>
+                </div>
+                <div class="flex gap-[15px] mt-[20px] lg:mt-0 md:mt-0">
+                    <div class="lg:w-[100px] md:w-[100%] w-[40%]">
+                        <img class="w-full" src="glass.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="text-[24px] font-[700] uppercase">Good Wine</h5>
+                        <p class="text-[16px] font-normal">Donec lacinia magna sit amet arcu aliquet luctus maecenas vehicula.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 w-[80%] my-0 mx-auto gap-[50px] pt-[70px] pb-[60px]">
+            <div>
+                <h2 class="uppercase text-[16px] tracking-[4px]">History</h2>
+                <h1 class="text-[54px] font-[700] uppercase underline decoration-double">About Us</h1>
+                <h5 class="text-[24px]">Welcome to Dina, a modern restaurant with a focus on premium food tastes</h5>
+                <p class="text-[16px] leading-[27.2px] pt-[30px]">We invite you to celebrate our restaurant's delicious recipes whether you are here for a business lunch or dinner. Discover new tastes and inspired recipes from all over the world.</p>
+                <a class="text-[12px] font-[700] border-4 px-[30px] py-[10px] text-black border-black mt-[50px] inline-block hover:bg-[#BC8D4B] hover:text-white hover:border-[#BC8D4B]"  href="#">FIND MORE</a>
+            </div>
+            <div>
+                <img class="w-full" src="about-7.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="bg-[url('../src/about-4.jpg')] lg:h-[70vh] md:h-[40vh] h-[100vh] w-full bg-center bg-cover flex items-center justify-center align-middle lg:bg-fixed min-h-[100px] bg-local">
+            <img src="taste-food.png" alt="">
+       
+        </div>
+        <div class=" text-center w-[80%] my-0 mx-auto pt-[70px]">
+            <h2 class="text-[16px] tracking-[3px] uppercase">Discover</h2>
+            <h1 class="text-[54px] font-[700] uppercase underline underline-offset-2">Our Menu</h1>
+            <p class="text-[16px] leading-[27.5px] pb-[40px]">Explore texture, color and of course the ultimate tastes with our menu of the season. All the ingredients are fresh and carefully selected by our chefs. Enjoy an extraordinary dinning experience.</p>
+        </div>
+        <main class="w-[85%] my-0 mx-auto text-left pb-[60px]">
+            <div class="faqs-grid">
+                <div class="faqs-item w-full mb-[20px] block border-[5px] border-black text-[black]">
+                    <a class="faqs-title active uppercase hover:text-[white] hover:bg-black font-[Poppins] font-[700] flex relative text-black text-[32px] p-[10px] w-full pl-[20px]" href="#custom">
+                        <i class="fa-solid fa-angle-down pr-[10px] pt-[8px]"></i>Starters 
+                    </a>
+                    <div class="faqs-content p-0 max-h-0 truncate">
+                        <div class="faqs-content-inside p-[20px]">
+                          <div class="menu-holder menu-2col menu-accordion">
+                                                <div class="menu-post clearfix flex items-center ">
+                              <div class="">
+                                <div class="grid grid-cols-2 justify-items-end gap-[20px] ">
+                                  <div class="mb-[10]">
+                                    <div class="">
+                                      <div class="flex pb-[20px]">
+                                        <div class="">
+                                          <img class="h-[6.5vh] rounded-[50px]" src="double-tomato-bruschetta.jpg" alt="">
+                                        </div>
+                                        <div class="">
+                                          <div class="ml-[20px]">
+                                            <p class="font-[Poppins] text-[16px] font-[600] ">Tomato Bruschetta <span class="text-[#d5d5d5]">.......................................................</span> $4.00</p>
+                                            <p class="font-[Lora] text-[14px] font-[400] italic">Tomatoes / Olive Oil / Cheese</p>
+                                          </div>
+                                        </div>
+                                      </div>
+        
+                                      <div class="flex">
+                                        <div class="">
+                                          <img class="h-[6.5vh] rounded-[50px]" src="avocado-tomato.jpg" alt="">
+                                        </div>
+                                        <div class="">
+                                          <div class="ml-[20px]">
+                                            <p class="font-[Poppins] text-[16px] font-[600] ">Avocado & Mango Salsa<span class="text-[#d5d5d5]">.............................................</span> $4.00</p>
+                                            <p class="font-[Lora] text-[14px] font-[400] italic">Tomatoes / Olive Oil / Cheese</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                  <div class="ml-[px]">
+                                    <div class="">
+                                      <div class="flex pb-[20px]">
+                                        <div class="">
+                                          <img class="h-[6.5vh] rounded-[50px]" src="marinated-grilled-shrimp.jpg" alt="">
+                                        </div>
+                                        <div class="">
+                                          <div class="ml-[20px]">
+                                            <p class="font-[Poppins] text-[16px] font-[600] ">Marinated Grilled Shrimp<span class="text-[#d5d5d5]">..............................................</span>$4.00</p>
+                                            <p class="font-[Lora] text-[14px] font-[400] italic">Tomatoes / Olive Oil / Cheese</p>
+                                          </div>
+                                        </div>
+                                      </div>
+        
+                                      <div class="flex">
+                                        <div class="">
+                                          <img class="h-[6.5vh] rounded-[50px]" src="baked-potato-skins.jpg" alt="">
+                                        </div>
+                                        <div class="">
+                                          <div class="ml-[20px]">
+                                            <p class="font-[Poppins] text-[16px] font-[600] ">Baked Potato Skins<span class="text-[#d5d5d5]"> .........................................................</span>$4.00</p>
+                                            <p class="font-[Lora] text-[14px] font-[400] italic">Tomatoes / Olive Oil / Cheese</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+        
+                              
+                                                </div>
+        
+                        </div>
+        
+                        
+                    </div>
+                </div>
+              </div> 
+            </div>  
+        
+            <div class="faqs-grid">
+              <div class="faqs-item text-[black] bartwo w-full mb-[20px] block border-[5px] border-black">
+                  <a class="faqs-title active uppercase hover:text-[white] hover:bg-black   font-[Poppins] font-[700] bartwo1 flex relative text-black text-[32px] p-[10px] w-full pl-[20px] " href="#custom">
+                    <i class="fa-solid fa-angle-down pr-[10px] pt-[8px]"></i>Courses 
+                  </a>
+                  <div class="faqs-content p-0 max-h-0 truncate transition-[max-height 0.4s ease-out]">
+                      <div class="faqs-content-inside p-[20px]">
+                        <div class="menu-holder menu-2col menu-accordion">
+                          <div class="menu-post clearfix flex items-center ">
+                            <div class="">
+                              <div class="grid grid-cols-2 justify-items-end gap-[20px] ">
+                                <div class="mb-[10]">
+                                  <div class="">
+                                    <div class="flex pb-[20px]">
+                                      <div class="">
+                                        <img class="h-[6.5vh] rounded-[50px]" src="double-tomato-bruschetta.jpg" alt="">
+                                      </div>
+                                      <div class="">
+                                        <div class="ml-[20px]">
+                                          <p class="font-[Poppins] text-[16px] font-[600] ">Tomato Bruschetta <span class="text-[#d5d5d5]">.......................................................</span> $4.00</p>
+                                          <p class="font-[Lora] text-[14px] font-[400] italic">Tomatoes / Olive Oil / Cheese</p>
+                                        </div>
+                                      </div>
+                                    </div>
+        
+                                    <div class="flex">
+                                      <div class="">
+                                        <img class="h-[6.5vh] rounded-[50px]" src="avocado-tomato.jpg" alt="">
+                                      </div>
+                                      <div class="">
+                                        <div class="ml-[20px]">
+                                          <p class="font-[Poppins] text-[16px] font-[600] ">Avocado & Mango Salsa<span class="text-[#d5d5d5]">.............................................</span> $4.00</p>
+                                          <p class="font-[Lora] text-[14px] font-[400] italic">Tomatoes / Olive Oil / Cheese</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                                <div class="ml-[px]">
+                                  <div class="">
+                                    <div class="flex pb-[20px]">
+                                      <div class="">
+                                        <img class="h-[6.5vh] rounded-[50px]" src="marinated-grilled-shrimp.jpg" alt="">
+                                      </div>
+                                      <div class="">
+                                        <div class="ml-[20px]">
+                                          <p class="font-[Poppins] text-[16px] font-[600] ">Marinated Grilled Shrimp<span class="text-[#d5d5d5]">..............................................</span>$4.00</p>
+                                          <p class="font-[Lora] text-[14px] font-[400] italic">Tomatoes / Olive Oil / Cheese</p>
+                                        </div>
+                                      </div>
+                                    </div>
+        
+                                    <div class="flex">
+                                      <div class="">
+                                        <img class="h-[6.5vh] rounded-[50px]" src="baked-potato-skins.jpg" alt="">
+                                      </div>
+                                      <div class="">
+                                        <div class="ml-[20px]">
+                                          <p class="font-[Poppins] text-[16px] font-[600] ">Baked Potato Skins<span class="text-[#d5d5d5]"> .........................................................</span>$4.00</p>
+                                          <p class="font-[Lora] text-[14px] font-[400] italic">Tomatoes / Olive Oil / Cheese</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+        
+                                <div class="ml-[px]">
+                                  <div class="">
+                                    <div class="flex pb-[20px]">
+                                      <div class="">
+                                        <img class="h-[6.5vh] rounded-[50px]" src="marinated-grilled-shrimp.jpg" alt="">
+                                      </div>
+                                      <div class="">
+                                        <div class="ml-[20px]">
+                                          <p class="font-[Poppins] text-[16px] font-[600] ">Marinated Grilled Shrimp<span class="text-[#d5d5d5]">..............................................</span>$4.00</p>
+                                          <p class="font-[Lora] text-[14px] font-[400] italic">Tomatoes / Olive Oil / Cheese</p>
+                                        </div>
+                                      </div>
+                                    </div>
+        
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+        
+                            
+                          </div>
+        
+                      </div>
+        
+                      
+                  </div>
+              </div>
+            </div> 
+          </div> 
+        
+          <div class="faqs-grid">
+            <div class="faqs-item  w-full mb-[20px] block border-[5px] border-black text-[black]">
+                <a class="faqs-title active uppercase hover:text-[white] hover:bg-black   font-[Poppins] font-[700] flex relative text-black text-[32px] p-[10px] w-full pl-[20px]  " href="#custom">
+                    <i class="fa-solid fa-angle-down pr-[10px] pt-[8px]"></i>Soupsers
+                </a>
+                <div class="faqs-content p-0 max-h-0 truncate transition-[max-height 0.4s ease-out]">
+                    <div class="faqs-content-inside p-[20px]">
+                      <div class="menu-holder menu-2col menu-accordion">
+                        <div class="menu-post clearfix flex items-center ">
+                          <div class="">
+                            <div class="grid grid-cols-2 justify-items-end gap-[20px] ">
+                              <div class="mb-[10]">
+                                <div class="">
+                                  <div class="flex pb-[20px]">
+                                    <div class="">
+                                      <img class="h-[6.5vh] rounded-[50px]" src="double-tomato-bruschetta.jpg" alt="">
+                                    </div>
+                                    <div class="">
+                                      <div class="ml-[20px]">
+                                        <p class="font-[Poppins] text-[16px] font-[600] ">Tomato Bruschetta <span class="text-[#d5d5d5]">.......................................................</span> $4.00</p>
+                                        <p class="font-[Lora] text-[14px] font-[400] italic">Tomatoes / Olive Oil / Cheese</p>
+                                      </div>
+                                    </div>
+                                  </div>
+        
+                                  <div class="flex">
+                                    <div class="">
+                                      <img class="h-[6.5vh] rounded-[50px]" src="avocado-tomato.jpg" alt="">
+                                    </div>
+                                    <div class="">
+                                      <div class="ml-[20px]">
+                                        <p class="font-[Poppins] text-[16px] font-[600] ">Avocado & Mango Salsa<span class="text-[#d5d5d5]">.............................................</span> $4.00</p>
+                                        <p class="font-[Lora] text-[14px] font-[400] italic">Tomatoes / Olive Oil / Cheese</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              <div class="ml-[px]">
+                                <div class="">
+                                  <div class="flex pb-[20px]">
+                                    <div class="">
+                                      <img class="h-[6.5vh] rounded-[50px]" src="marinated-grilled-shrimp.jpg" alt="">
+                                    </div>
+                                    <div class="">
+                                      <div class="ml-[20px]">
+                                        <p class="font-[Poppins] text-[16px] font-[600] ">Marinated Grilled Shrimp<span class="text-[#d5d5d5]">..............................................</span>$4.00</p>
+                                        <p class="font-[Lora] text-[14px] font-[400] italic">Tomatoes / Olive Oil / Cheese</p>
+                                      </div>
+                                    </div>
+                                  </div>
+        
+                                  <div class="flex">
+                                    <div class="">
+                                      <img class="h-[6.5vh] rounded-[50px]" src="baked-potato-skins.jpg" alt="">
+                                    </div>
+                                    <div class="">
+                                      <div class="ml-[20px]">
+                                        <p class="font-[Poppins] text-[16px] font-[600] ">Baked Potato Skins<span class="text-[#d5d5d5]"> .........................................................</span>$4.00</p>
+                                        <p class="font-[Lora] text-[14px] font-[400] italic">Tomatoes / Olive Oil / Cheese</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+        
+                              <div class="ml-[px]">
+                                <div class="">
+                                  <div class="flex pb-[20px]">
+                                    <div class="">
+                                      <img class="h-[6.5vh] rounded-[50px]" src="marinated-grilled-shrimp.jpg" alt="">
+                                    </div>
+                                    <div class="">
+                                      <div class="ml-[20px]">
+                                        <p class="font-[Poppins] text-[16px] font-[600] ">Marinated Grilled Shrimp<span class="text-[#d5d5d5]">..............................................</span>$4.00</p>
+                                        <p class="font-[Lora] text-[14px] font-[400] italic">Tomatoes / Olive Oil / Cheese</p>
+                                      </div>
+                                    </div>
+                                  </div>
+        
+                                  
+                                </div>
+                              </div>
+        
+                              <div class="ml-[px]">
+                                <div class="">
+                                  <div class="flex pb-[20px]">
+                                    <div class="">
+                                      <img class="h-[6.5vh] rounded-[50px]" src="marinated-grilled-shrimp.jpg" alt="">
+                                    </div>
+                                    <div class="">
+                                      <div class="ml-[20px]">
+                                        <p class="font-[Poppins] text-[16px] font-[600] ">Marinated Grilled Shrimp<span class="text-[#d5d5d5]">..............................................</span>$4.00</p>
+                                        <p class="font-[Lora] text-[14px] font-[400] italic">Tomatoes / Olive Oil / Cheese</p>
+                                      </div>
+                                    </div>
+                                  </div>
+        
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+        
+                          
+                        </div>
+        
+                    </div>
+        
+                    
+                </div>
+            </div>
+          </div> 
+        </div> 
+        
+        <div class="faqs-grid">
+          <div class="faqs-item  w-full mb-[20px] block border-[5px] border-black text-[black]">
+              <a class="faqs-title active uppercase hover:text-[white] hover:bg-black   font-[Poppins] font-[700] flex relative text-black text-[32px] p-[10px] w-full pl-[20px] " href="#custom">
+                <i class="fa-solid fa-angle-down pr-[10px] pt-[8px]"></i>Desserts 
+              </a>
+              <div class="faqs-content p-0 max-h-0 truncate transition-[max-height 0.4s ease-out]">
+                  <div class="faqs-content-inside p-[20px]">
+                    <div class="menu-holder menu-2col menu-accordion">
+                      <div class="menu-post clearfix flex items-center ">
+                        <div class="">
+                          <div class="grid grid-cols-2 justify-items-end gap-[20px] ">
+                            <div class="mb-[10]">
+                              <div class="">
+                                <div class="flex pb-[20px]">
+                                  <div class="">
+                                    <img class="h-[6.5vh] rounded-[50px]" src="double-tomato-bruschetta.jpg" alt="">
+                                  </div>
+                                  <div class="">
+                                    <div class="ml-[20px]">
+                                      <p class="font-[Poppins] text-[16px] font-[600] ">Tomato Bruschetta <span class="text-[#d5d5d5]">.......................................................</span> $4.00</p>
+                                      <p class="font-[Lora] text-[14px] font-[400] italic">Tomatoes / Olive Oil / Cheese</p>
+                                    </div>
+                                  </div>
+                                </div>
+        
+                                <div class="flex">
+                                  <div class="">
+                                    <img class="h-[6.5vh] rounded-[50px]" src="avocado-tomato.jpg" alt="">
+                                  </div>
+                                  <div class="">
+                                    <div class="ml-[20px]">
+                                      <p class="font-[Poppins] text-[16px] font-[600] ">Avocado & Mango Salsa<span class="text-[#d5d5d5]">.............................................</span> $4.00</p>
+                                      <p class="font-[Lora] text-[14px] font-[400] italic">Tomatoes / Olive Oil / Cheese</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="ml-[px]">
+                              <div class="">
+                                <div class="flex pb-[20px]">
+                                  <div class="">
+                                    <img class="h-[6.5vh] rounded-[50px]" src="marinated-grilled-shrimp.jpg" alt="">
+                                  </div>
+                                  <div class="">
+                                    <div class="ml-[20px]">
+                                      <p class="font-[Poppins] text-[16px] font-[600] ">Marinated Grilled Shrimp<span class="text-[#d5d5d5]">..............................................</span>$4.00</p>
+                                      <p class="font-[Lora] text-[14px] font-[400] italic">Tomatoes / Olive Oil / Cheese</p>
+                                    </div>
+                                  </div>
+                                </div>
+        
+                                <div class="flex">
+                                  <div class="">
+                                    <img class="h-[6.5vh] rounded-[50px]" src="baked-potato-skins.jpg" alt="">
+                                  </div>
+                                  <div class="">
+                                    <div class="ml-[20px]">
+                                      <p class="font-[Poppins] text-[16px] font-[600] ">Baked Potato Skins<span class="text-[#d5d5d5]"> .........................................................</span>$4.00</p>
+                                      <p class="font-[Lora] text-[14px] font-[400] italic">Tomatoes / Olive Oil / Cheese</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+        
+                        
+                      </div>
+        
+                  </div>
+        
+                  
+              </div>
+          </div>
+        </div> 
+        </div> 
+          <div class="flex justify-center">
+            <a class="  text-[12px] uppercase font-[700] border-[5px] border-[black] py-[12px] px-[28px] font-[Poppins] hover:bg-[#BC8D4B] hover:text-white hover:border-[#BC8D4B] text-[black]  " href="#">View Menu</a>
+          </div>
+        
+            
+            
+        </main>
+        <div class="bg-[url('../src/about-5.jpg')] lg:h-[70vh] w-full bg-center bg-cover flex text-white text-center items-center justify-center align-middle lg:bg-fixed min-h-[100px] bg-local md:h-[40vh] h-[100vh]">
+            <div>
+                <h2 class="uppercase text-[16px] tracking-[4px]">Reserve a Table</h2>
+                <h1 class="text-[54px] font-[700] uppercase underline underline-offset-2">Open Hours</h1>
+                <p class="mb-[30px] mt-[10px]">Monday - Friday: 10 AM - 11 PM </p>
+                <p>Saturday - Sunday: 9 AM - 1 PM </p>
+                <a class="inline-block border-[5px] py-[10px] px-[25px] text-[12px] font-[700] hover:bg-[#BC8D4B] hover:text-white hover:border-[#BC8D4B] mt-[80px]" href="#">VIEW MENU</a>
+            </div>
+            
+        </div>
+        <div class="w-[80%] my-0 mx-auto grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-[50px] py-[70px]">
+            <img class="w-full" src="about-8.jpg" alt="">
+            <div class="text-right">
+                <h2 class="uppercase text-[16px] tracking-[4px]">Experience</h2>
+                <h1 class="text-[54px] font-[700] uppercase underline underline-offset-2">Wine</h1>
+                <p class="text-[22px] italic font-normal">A unique dinner works best with wine pairing</p>
+                <p class="text-[16px] font-normal leading-[27px] mt-[30px]">You can choose from a variety of styles, light and easy drinking, fresh and aromatic white wines or you could try intense and elegant red wines. Creative cuisine involves sophisticated wines. </p>
+                <p class="text-[16px] font-normal leading-[27px] mt-[30px]">Vestibulum eleifend gravida neque a bibendum. Vivamus viverra velit non cursus elementum. Donec sit amet posuere ipsum. Mauris rutrum sagittis sapien text link. In vitae ipsum eleifend, auctor turpis in, vestibulum dui. Ut vestibulum, lorem id eleifend mollis, urna augue imperdiet ante, vitae aliquam turpis mauris eget nisi. Sed vel purus id velit molestie.</p>
+            </div>
+        </div>
+        <div class="bg-[url('../src/about-9.jpg')] lg:h-[70vh] w-full bg-center bg-cover flex text-white text-center items-center justify-center align-middle lg:bg-fixed min-h-[100px] bg-local md:h-[40vh] h-[100vh]">
+            <div>
+                <h2 class="uppercase text-[16px] tracking-[2px]">Visit Us</h2>
+                <h1 class="text-[54px] font-[700] uppercase underline underline-offset-2">Good Food and Drinks</h1>
+                <p class="text-[15px] font-normal">Donec suscipit lobortis ornare. Aenean vel varius odio. <br>
+                    Cras ligula odio, congue vel adipiscing non, congue vitae neque. </p>
+            </div>
+            
+        </div>
+        <div class="w-[80%] my-0 mx-auto grid  lg:grid-cols-3 md:grid-cols-3 grid-cols-1 text-center py-[80px]">
+            <div class="pb-[40px] lg:pb-0 md:pb-0">
+                <h1 class="text-[24px] font-[700]">ADDRESS:</h1>
+                <p>Dina Restaurant </p>
+                <p>40 Park Ave, Brooklyn, New York 70250</p>
+
+            </div>
+            <div class="pb-[40px] lg:pb-0 md:pb-0">
+                <h1 class="text-[24px] font-[700]">RESERVATION:</h1>
+                <p>000-111-222  </p>
+                <p>contact@dina.com</p>
+
+            </div>
+            <div class="">
+                <h1 class="text-[24px] font-[700]">OPEN HOURS:</h1>
+                <p>Monday - Friday: 10 AM - 11 PM  </p>
+                <p>Saturday - Sunday: 9 AM - 1 PM </p>
+
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="#"><i class="fa-brands fa-facebook rounded-full p-[5px] border border-[#E8E8E8] hover:text-[#6788CE]"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter rounded-full p-[5px] border border-[#E8E8E8] hover:text-[#29C5F6]"></i></a>
+            <a href="#"><i class="fa-brands fa-galactic-republic rounded-full p-[5px] border border-[#E8E8E8] hover:text-[rgb(0,175,135)]"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest rounded-full p-[5px] border border-[#E8E8E8] hover:text-[#FE4445]"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram rounded-full p-[5px] border border-[#E8E8E8] hover:text-[#BF9F88]"></i></a>
+            <p class="text-[10px] uppercase tracking-[2px] py-[20px]">Copyright © 2021, Dina . Designed by MatchThemes.com </p>
+        </div>
+
+
+                        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+         <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            effect: "fade",
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            });
+
+            var acc = document.getElementsByClassName('faqs-title');
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener('click', function () {
+        this.classList.toggle('active');
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + 'px';
+        }
+    });
+}
+        </script>
+
+
+ 
+    </body>
+</html>
